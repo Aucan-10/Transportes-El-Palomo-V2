@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="./logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-5 border-primary sticky-top p-0">
         <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
             <h2 class="mb-2 text-white">EL PALOMO</h2>
         </a>
@@ -67,6 +67,7 @@
                 <a href="contact.html" class="nav-item nav-link">Contacto</a>
             </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+011 4994-9555</h4>
+            <img src="./logo.png" alt="" style="width: 50px; height: auto;">
         </div>
     </nav>
     <!-- Navbar End -->
@@ -84,7 +85,7 @@
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">UNA EMPRESA CON MAS DE 10 AÑOS DE EXPERIENCIA</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4"><span class="text-primary">El Palomo</span> Transportes</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Transportes de cargas generales y refrigeradas, de corta y larga distancia.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
 
 
     <!-- Fact Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="facts">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -177,48 +178,61 @@ En Transportes El Palomo, combinamos experiencia, tecnología y compromiso para 
 
 
     <!-- Service Start -->
-    <div id="service" class="container-xxl py-5">
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">NUESTROS SERVICIOS</h6>
-                <h1 class="mb-5">Conocé Nuestros Servicios</h1>
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase">Our Services</h6>
+            <h1 class="mb-5">Nuestros tipos de transportes</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="service-item p-4">
+                <div class="overflow-hidden mb-4">
+                  <img class="img-fluid" src="img/service-1.jpg" alt="" />
+                </div>
+                <h4 class="mb-3">Congelados</h4>
+                <p>
+                  Cargas que requieren temperaturas bajo cero, como carnes y alimentos congelados.
+                </p>
+                <a class="btn-slide mt-2" href=""
+                  ><i class="fa fa-arrow-right"></i><span>Read More</span></a
+                >
+              </div>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">[Servicio]</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="service-item p-4">
+                <div class="overflow-hidden mb-4">
+                  <img class="img-fluid" src="img/service-2.jpg" alt="" />
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">[Servicio]</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">[Servicio]</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                
-                </div>
+                <h4 class="mb-3">Refrigerados</h4>
+                <p>
+                  Productos que necesitan mantenerse frescos, como frutas, verduras y lácteos.
+                </p>
+                <a class="btn-slide mt-2" href=""
+                  ><i class="fa fa-arrow-right"></i><span>Read More</span></a
+                >
+              </div>
             </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+              <div class="service-item p-4">
+                <div class="overflow-hidden mb-4">
+                  <img class="img-fluid" src="img/service-3.jpg" alt="" />
+                </div>
+                <h4 class="mb-3">Secos</h4>
+                <p>
+                  Mercancías sin necesidad de control térmico, como alimentos envasados y productos industriales.
+                </p>
+                <a class="btn-slide mt-2" href=""
+                  ><i class="fa fa-arrow-right"></i><span>Read More</span></a
+                >
+              </div>
+            
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+  
     <!-- Service End -->
 
 
@@ -233,21 +247,21 @@ En Transportes El Palomo, combinamos experiencia, tecnología y compromiso para 
                         <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>Servicio a todo el país</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                            <p class="mb-0">En Transportes El Palomo llegamos a todo el país gracias a su equipo de profesionales comprometidos con la puntualidad, la seguridad y el cuidado de cada carga, ya sea congelada o convencional.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>Confianza asegurada</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                            <p class="mb-0">En Transportes El Palomo garantizamos entregas puntuales y seguras, respaldadas por más de 10 años de experiencia y cobertura nacional.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>Equipo profesional</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                            <p class="mb-0">En Transportes El Palomo contamos con un equipo capacitado y comprometido que asegura la calidad y puntualidad en cada entrega.</p>
                         </div>
                     </div>
                 </div>
@@ -260,6 +274,7 @@ En Transportes El Palomo, combinamos experiencia, tecnología y compromiso para 
         </div>
     </div>
     <!-- Feature End -->
+
 
 
     <!-- Pricing Start -->
@@ -421,7 +436,7 @@ En Transportes El Palomo, combinamos experiencia, tecnología y compromiso para 
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>011 4994-9555</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>transelpalomo@hotmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvlqhcsThtFqnzMVwHXLZtkwPRXjlRVPcsDKmldTcwQbKBGCQgwtFhcQKVfMJRSKkwdpwL"><i class="bi bi-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="mailto:transelpalomo@hotmail.com?subject=Asunto%20de%20Comunicado&body=Buenos%20d%C3%ADas%2C%20me%20dirijo%20a%20ustedes%20para..."><i class="bi bi-envelope"></i></a>
                         <a class="btn btn-outline-light btn-social" href="https://m.facebook.com/transporteelpalomo"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href="https://wa.me/011 4994-9555"><i class="bi bi-whatsapp"></i></a>
                         <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
@@ -437,11 +452,12 @@ En Transportes El Palomo, combinamos experiencia, tecnología y compromiso para 
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Enlaces Rapidos</h4>
-                    <a class="btn btn-link" href="">Sobre Nosotros</a>
-                    <a class="btn btn-link" href="">Contactanos</a>
-                    <a class="btn btn-link" href="">Nuestros Servicios</a>
-                    <a class="btn btn-link" href="">Terminos y Condiciones</a>
-                    <a class="btn btn-link" href="">Soporte</a>
+                    <a class="btn btn-link" href="#about">Sobre Nosotros</a>
+                    <a class="btn btn-link" href="#facts">Nuestros Principios</a>
+                    <a class="btn btn-link" href="#service">Nuestros Servicios</a>
+                    <a class="btn btn-link" href="#">Nuestra Empresa</a>
+                    <a class="btn btn-link" href="#team">El Equipo</a>
+                    <a class="btn btn-link" href="#testimonios">Empresas Aliadas</a>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Noticias</h4>
