@@ -31,6 +31,16 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* You can add this to style.css or inside <head> */
+        #services .service-item .img-fluid {
+            width: 100%;
+            height: 250px;
+            /* Adjust to match Congelados-1.png's height */
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>
@@ -68,7 +78,7 @@
                 <a href="https://wa.me/542972506066?text=Hola%20quiero%20Más%20Información." class="nav-item nav-link">Contacto</a>
             </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+011 4994-9555</h4>
-            <img src="./logo.png" alt="" style="width: 50px; height: auto;">
+            <img loading="lazy" src="./img/logo.png" alt="" style="width: 50px; height: auto;">
         </div>
     </nav>
     <!-- Navbar End -->
@@ -78,7 +88,7 @@
 
 
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img loading="lazy" class="img-fluid" src="img/banner-1.png" alt="Un grupo de camiones de transporte estacionados en finla en una sucursal de la empresa.">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -103,7 +113,7 @@
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img loading="lazy" class="position-absolute img-fluid w-100 h-100" src="img/Sobre-nosotros-1.png" style="object-fit: cover;" alt="un camion de la empresa pasando por un bosque.">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
@@ -187,7 +197,7 @@
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
               <div class="service-item p-4">
                 <div class="overflow-hidden mb-4">
-                  <img class="img-fluid" src="img/service-1.jpg" alt="" />
+                  <img loading="lazy" class="img-fluid" src="img/Congelados-1.png" alt="la bodega de un camion congelada por dentro" />
                 </div>
                 <h4 class="mb-3">Congelados</h4>
                 <p>
@@ -201,7 +211,7 @@
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
               <div class="service-item p-4">
                 <div class="overflow-hidden mb-4">
-                  <img class="img-fluid" src="img/service-2.jpg" alt="" />
+                  <img loading="lazy" class="img-fluid" src="img/Refrigerados-1.png" alt="La bodega de un camion refrigerado por dentro, con algunos paquetes " />
                 </div>
                 <h4 class="mb-3">Refrigerados</h4>
                 <p>
@@ -215,7 +225,7 @@
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
               <div class="service-item p-4">
                 <div class="overflow-hidden mb-4">
-                  <img class="img-fluid" src="img/service-3.jpg" alt="" />
+                  <img loading="lazy" class="img-fluid" src="img/Secos-1.png" alt="La bodega de un camion por dentro, con algunos paquetes comunes" />
                 </div>
                 <h4 class="mb-3">Secos</h4>
                 <p>
@@ -265,7 +275,7 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                        <img loading="lazy" class="position-absolute img-fluid w-100 h-100" src="img/Equipo-1.png" style="object-fit: cover;" alt="Todos los miembros del equipo de la empresa posando para una foto grupal">
                     </div>
                 </div>
             </div>
@@ -379,15 +389,15 @@
     <div class="compact-carousel">
         <div class="owl-carousel owl-theme">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./equipo_tecnico.jpg" alt="Paisaje montañoso">
+                <img loading="lazy"  class="img-fluid" src="./img/equipo_tecnico.jpg" alt="Paisaje montañoso">
                 
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./equipo_tecnico2.jpg" alt="Océano atardecer">
+                <img loading="lazy"  class="img-fluid" src="./img/equipo_tecnico2.jpg" alt="Océano atardecer">
     
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./equipo_tecnico3.jpg" alt="Naturaleza verde">
+                <img loading="lazy" class="img-fluid" src="./imgequipo_tecnico3.jpg" alt="Naturaleza verde">
                 
             </div>
         </div>
@@ -452,7 +462,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <img loading="lazy" class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">[Empresa]</h5>
                             <p class="m-0">[Producto]</p>
@@ -463,7 +473,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <img loading="lazy" class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">[Empresa]</h5>
                             <p class="m-0">[Producto]</p>
@@ -474,7 +484,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <img loading="lazy" class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">[Empresa]</h5>
                             <p class="m-0">[Producto]</p>
@@ -485,7 +495,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                        <img loading="lazy" loading="lazy" loading="lazy" class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">[Empresa]</h5>
                             <p class="m-0">[Producto]</p>
@@ -540,7 +550,7 @@
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div> -->
-                <img src="./logo.png" alt="Logo" style="width: 270px; height: auto;">
+                <img loading="lazy" src="./img/logo.png" alt="Logo" style="width: 270px; height: auto;">
             </div>
         </div>
         <div class="container">
